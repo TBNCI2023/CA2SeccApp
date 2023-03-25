@@ -1,5 +1,8 @@
 Branch master
 
+![dockerLogo](https://user-images.githubusercontent.com/45858960/227732847-a6d9bdce-3e8c-4e14-bef6-fe3d714787b0.png)
+---
+
 # Instructions
 
 The setup instructions for a MySQL and phpMyAdmin environment utilizing Docker containers are provided in this *README.md*. You can find instructions on how set up a Docker network, conducting a MySQL Docker image with a given passport and a name, and running a phpMyAdmin Docker image while mapping a port to the container's port 80 on the previously established network.
@@ -47,13 +50,15 @@ This will run the latest version of phpMyAdmin and name the container *"phpmyadm
 ---
 
 ## If Docker is not Installed
-Follow the next steps if docker need to be installed in your local machine.
 
 4. How to Install Docker
-- Go to the [Docker website] (https://www.docker.com/products/docker-desktop)
-Click on the "Download" button and select your operating system (Windows or Mac).
-Follow the installation instructions for your operating system.
-Once Docker is installed, open a terminal window (Windows) or a terminal application (Mac).
-Run the command "docker --version" to make sure Docker is installed and working properly.
+- Go to the [Docker website](https://www.docker.com/products/docker-desktop)
+- Click "Download" button and select the correct operating system.
+- Follow the installation instructions.
+- Once Docker is installed, open a terminal window and run the following command to check if Docker has been installed successfully.
+```sh
+docker --version
+```
 
-For more information on how to install Docker:  https://docs.docker.com/get-docker/
+
+For more information on how to install Docker click [HERE](https://docs.docker.com/get-docker/)
