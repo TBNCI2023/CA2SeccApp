@@ -12,9 +12,10 @@ By running the command:
 ```sh
 docker --version
 ```
-> If installed go to [^1].
+> If installed go to point 1.
 
-> If not installed go to [^4].
+> If not installed go to point 4.
+
 
 
 ## Create a **Docker Network**
@@ -43,13 +44,16 @@ docker run --name phpmyadmin --network **[your_network_name]** -p **[your_port_c
 
 This will run the latest version of phpMyAdmin and name the container *"phpmyadmin"*. It helps to connect the container to the network created and map a port to port 80 of the container. Replace *"your_port_choice"* and *"your_network_name"*.
 
+---
 
 ## If Docker is not Installed
 Follow the next steps if docker need to be installed in your local machine.
 
 4. How to Install Docker
-Go to the Docker website: https://www.docker.com/products/docker-desktop
+- Go to the [Docker website] (https://www.docker.com/products/docker-desktop)
 Click on the "Download" button and select your operating system (Windows or Mac).
 Follow the installation instructions for your operating system.
 Once Docker is installed, open a terminal window (Windows) or a terminal application (Mac).
 Run the command "docker --version" to make sure Docker is installed and working properly.
+
+For more information on how to install Docker:  https://docs.docker.com/get-docker/
